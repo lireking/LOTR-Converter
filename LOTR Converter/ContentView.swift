@@ -73,8 +73,7 @@ struct ContentView: View {
                             .background(Color(UIColor.systemGray6))
                             .cornerRadius(7)
                             .keyboardType(.decimalPad)
-                            .onChange(of: leftTyping ?, perform: <#T##(Equatable) -> Void##(Equatable) -> Void##(_ newValue: Equatable) -> Void#>)
-                    }
+                            }
                     
                     // Equal sign
                     Image(systemName: "equal")
